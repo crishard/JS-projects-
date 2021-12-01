@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    text-align: center;
+    height: 100vh;
+    background: rgb(126, 165, 238);
+}
+
+.valor{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    top: 40%;
+    left: 50%;
+    background: cyan;
+}
+
+.botao{
+    width: 60px;
+    height: 30px;
+}
+
+.maior{
+    height: 60px
+}
+
+.zero{
+    width: 122px;
+}
+
+#resultado{
+    background-color: white;
+    width: 240px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
