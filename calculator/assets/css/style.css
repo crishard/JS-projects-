@@ -7,34 +7,36 @@
 .principal{
     text-align: center;
     height: 100vh;
-    background: rgb(126, 165, 238);
+    background: rgb(182, 200, 233);
 }
 
 .valor{
     position: absolute;
     transform: translate(-50%, -50%);
     padding: 15px;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    background: cyan;
+    background: rgb(2, 5, 5);
 }
-
+.valor h2{
+    color: white;
+}
 .botao{
-    width: 60px;
-    height: 30px;
+    width: 70px;
+    height: 40px;
 }
 
 .maior{
-    height: 60px
+    height: 85px
 }
 
 .zero{
-    width: 122px;
+    width: 142px;
 }
 
 #resultado{
     background-color: white;
-    width: 240px;
+    width: 280px;
     height: 30px;
     margin: 5px;
     font-size: 25px;
