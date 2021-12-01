@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 80px;
+}
+
+
+.button .on{
+    border-radius: 0.25rem;
+    border: 0.025rem solid #345;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button .off{
+    border-radius: 0.25rem;
+    border: 0.025rem solid #345;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button .on:hover{
+    background: rgb(71, 196, 175);
+}
+.button .off:hover{
+    background: rgb(71, 196, 175);
+}
