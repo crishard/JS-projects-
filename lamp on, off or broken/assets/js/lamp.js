@@ -7,7 +7,7 @@ function isLampBroken () {
     return lamp.src.indexOf ( 'quebrada' ) > -1
 }
 // function to change the path from the image to the lit lamp when clicking the on button
-function lampOn () {
+function lampOn () { 
         lamp.src = './assets/img/on.jpg';
 }
 // function to change the path of the image to the lamp off by clicking the off button

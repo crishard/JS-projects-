@@ -1,42 +1,38 @@
-// const img = document.getElementById( 'img' );
-// const buttons = document.getElementById( 'buttons' );
-// let colorIndex = 0;
-// let intervalId = null;
+const img = document.getElementById( 'img' );
+const buttons = document.getElementById( 'buttons' );
+let colorIndex = 0;
+let intervalId = null;
 
-// const trafficLight = ( event ) => {
-//     stopAutomatic();
-//     turnOn[event.target.id]();
-// }
+const lamplight = ( event ) => {
+    stopAutomatic();
+    semaOn[event.target.id]();
+}
 
-// const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
+const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
 
-// const changeColor = () => {
-//     const colors = ['red','yellow','green']
-//     const color = colors[ colorIndex ];
-//     turnOn[color]();
-//     nextIndex();
-// }
+const changeColor = () => {
+    const colors = ['red','yellow','green']
+    const color = colors[ colorIndex ];
+    semaOn[color]();
+    nextIndex();
+}
 
-// const stopAutomatic = () => {
-//     clearInterval ( intervalId );
-// }
+const stopAutomatic = () => {
+    clearInterval ( intervalId );
+}
 
-// const turnOn = {
-//     'red':      () => img.src = './assets/img/red.jpg',
-//     'yellow':   () => img.src = './assets/img/yellow.jpg',
-//     'green':    () => img.src = './assets/img/green.jpg',
-//     'automatic': () => intervalId = setInterval( changeColor, 1000 )
-// }
+const semaOn = {
+    'red':      () => img.src = './assets/img/red.png',
+    'yellow':   () => img.src = './assets/img/yellow.png',
+    'green':    () => img.src = './assets/img/green.png',
+    'automatic': () => intervalId = setInterval( changeColor, 1000 )
+}
 
-// buttons.addEventListener('click', trafficLight );
-
-
+buttons.addEventListener('click', lamplight );
 
 
 
-
-
-
+//outra solução sendo proposta
 
 
 // const semaRed = document.getElementById('red');

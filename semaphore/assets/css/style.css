@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    background: rgb(236, 161, 99);
+    color: cornsilk;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    border: 1px solid rgb(66, 97, 50);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button{
+    width: 85px;
+    height: 20px;
+}
+
+.button:hover{
+    background: chocolate;
+}
