@@ -62,11 +62,15 @@ input:hover{
 button .show{
     background: chartreuse;
 }
-
 .correta{
     background: rgb(50, 187, 50);
 }
-
+.correta:hover{
+    background: rgb(50, 187, 50);
+}
 .errada{
+    background: red;
+}
+.errada:hover{
     background: red;
 }
