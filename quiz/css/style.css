@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: rgb(163, 212, 214);
+    font-size: 2rem;
+    font-family: sans-serif;
+
+}
+
+button{
+    width: 20rem;
+    margin: 0.5rem;
+    font-size: 1.8rem;
+    align-items: center;
+    cursor: pointer;
+    border: 0.1rem solid royalblue;
+    border-radius: 2rem;
+}
+
+.quiz{
+    width: 30rem;
+    padding: 3rem;
+    left: 50%;
+    display: flex;
+    position: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100vh;
+}
+
+button:hover{
+    background:rgb(140, 182, 127);
+}
+
+input{
+    width: 25rem;
+    height: 3rem;
+    margin: 4rem 0 8rem 5rem;
+    border: 0.1rem solid royalblue;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+input:hover{
+    background:rgb(235, 198, 80);
+}
+
+.principal{
+    left: 50%;
+}
+
+
+button .show{
+    background: chartreuse;
+}
