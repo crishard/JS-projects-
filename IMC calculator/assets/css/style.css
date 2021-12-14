@@ -57,11 +57,11 @@ button:hover{
     margin-top: 20px;
 }
 
-.paragrafo-resultado, .bad {
-    background: rgb(109, 255, 182);
+.resultado, .bad {
+    background: rgb(83, 184, 36);
     padding: 10px 20px;
   }
   
-  .bad {
-    background: rgb(255, 150, 150);
-  }
+.bad {
+    background: rgb(236, 75, 75);
+}
