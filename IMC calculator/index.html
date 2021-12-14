@@ -9,19 +9,15 @@
 </head>
 <body>
     <main class="principal">
-        <div class="title">
+        <section>
             <h1 class="name">Calcule o seu IMC</h1>
-        </div>
-
-        <div class="formul">
-            <label for="peso" class="peso">Peso:</label>
-            <input id="peso" type="text">
-            
-            <label for="altura" class="altura">Altura:</label>
-            <input id="altura" type="text">
-            
-            <button type="button"> Calcular IMC</button>
-        </div>
+            <form action="/" id="formulario" class="formulario" method="post">
+                <label for="peso">Peso:</label>
+                <input id="peso" type="text" name="peso">
+                <label for="altura">Altura:</label>
+                <input id="altura" type="text" name="altura">
+                <button type="submit"> Calcular IMC</button>
+        </section>
 
         <div id="resultado"></div>
     </main>

@@ -12,12 +12,8 @@ body{
     font-family: 'Open Sans', sans-serif
 }
 .principal{
-    width: 500px;
-    height: 340px;
-    margin-left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 20rem;
+    width: 640px;
+    margin: 50px auto;
     background: white;
     border-radius: 20px;
     padding: 20px;
@@ -28,19 +24,19 @@ body{
     margin-bottom: 1.5rem;
     padding-top: 1rem;
 }
-.formul input, .formul label, .formul button{
+.formulario input, .formulario label, .formulario button{
     display: block;
     width: 100%;
     margin-bottom: 0.5rem;
     
 }
 
-.formul input{
+.formulario input{
     font-size: 24px;
    height: 50px;
    padding: 0 20px;
 }
-.formul input:focus{
+.formulario input:focus{
     outline: 2px solid var(--cor-principal);
 }
 button{
@@ -57,7 +53,15 @@ button:hover{
     background: rgba(35, 35, 180, 0.521);
 }
 
-.resultado, .on{
-    padding: 20px 20px;
-    opacity: 0;
+#resultado{
+    margin-top: 20px;
 }
+
+.paragrafo-resultado, .bad {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+  }
+  
+  .bad {
+    background: rgb(255, 150, 150);
+  }

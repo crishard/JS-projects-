@@ -1,28 +1,13 @@
-const form = document.querySelector('#formul')
+const form = document.querySelector('#formulario');
 
-form.addEventListener('click', function(e){
-    e.preventDefault();
+form.addEventListener('submit', function(event){
+    event.preventDefault();
 
-    const inputPeso = document.querySelector('#Peso');
-    const inputAltura = document.querySelector('#altura');
-
-
-    const peso = Number(inputPeso);
-    const altura = Number(inputAltura)
-
-    if (!peso){
-        setResultado('Peso inválido', false)
-        return;
-    }
-    if(!altura){
-        setResultado('Altura Inválida', false)
-        return;
-    }
-
-    const imc = getImc(peso, altura);
-    const nivelImc = getNivelImc(imc);
-
-    const msg = `Seu IMC é ${imc} (${nivelImc}).`;
-
-    setResultado(msg, true)
+    console.log('Enviado');
+    setResultado('Hi guys');
 })
+
+function setResultado(msg){
+    const resultado = document.querySelector('#resultado');
+    resultado.innerHTML = `<p>${msg}</p>`;
+}
