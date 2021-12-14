@@ -1,0 +1,63 @@
+:root{
+    --cor-principal: rgba(41, 181, 190, 0.678);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--cor-principal);
+    font-family: 'Open Sans', sans-serif
+}
+.principal{
+    width: 500px;
+    height: 340px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20rem;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.name{
+    padding-left: 0;
+    margin-left: 10px;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+.formul input, .formul label, .formul button{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    
+}
+
+.formul input{
+    font-size: 24px;
+   height: 50px;
+   padding: 0 20px;
+}
+.formul input:focus{
+    outline: 2px solid var(--cor-principal);
+}
+button{
+    margin-top: 20px;
+    font-size: 22px;
+    color: black;
+    height: 45px;
+    background: var(--cor-principal);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(35, 35, 180, 0.521);
+}
+
+.resultado, .on{
+    padding: 20px 20px;
+    opacity: 0;
+}
