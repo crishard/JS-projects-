@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: coral;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background: lightcoral;
+    width: 50%;
+    margin-left: 22rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.buttons button{
+    color: black;
+    background: white;
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 6rem;
+    height: 2.2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+.buttons button:hover{
+    border: 1px solid white;
+    background: blue;
+    color: black;
+}
+.text h2{
+    margin-bottom: 2rem;
+}
+.clock{
+    font-size: 2.2rem;
+}
+.paused{
+    color: red;
+}
